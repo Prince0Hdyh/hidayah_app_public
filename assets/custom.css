@@ -1,0 +1,137 @@
+body {margin: 0;padding: 0;color:#313131;font-size:16px !important;font-family:"Arial";}
+a{color:#00840c;}
+a:hover{color:#00a40f;outline:none;text-decoration:none;}
+.color-body{background:#bce8db;position:relative;overflow:hidden;min-height:100vh;}
+.container-custom{margin-left:10vh;margin-right:10vh;}
+.flexcenter{display: flex;justify-content: center;align-items: center;}
+.flexleft{display: flex;justify-content: left;align-items: center;}
+.flexright{display: flex;justify-content:right;align-items: center;}
+.row {margin-right: 0;margin-left: 0;}
+.left-register{width:25%;float:left;text-align:center;margin: 0 0;}
+.left-register-inner{position:relative;overflow:hidden;border-radius:7px;background:rgba(255,255,255,0.65);height:60vh;border:#fff 3px solid;-webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.4);
+box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.4);}
+.left-register-margin{margin-right:20px;position:relative;z-index:2;}
+.right-register{width:75%;float:left;position:relative;margin:0 0;z-index:2;}
+.latar-bottom{position:absolute;bottom:0;left:0;right:0;z-index:1;}
+.latar-bottom img{display:block;width:100%;height:auto;}
+.header-home{position:relative;overflow:hidden;margin:0 0 6vh!important;width:100%;background:rgba(255,255,255,0.5);padding:3vh 0;}
+.header-home-left{float:left;width:60%;}
+.header-home-right{float:left;width:40%;height:16vh;text-align:right;}
+.header-home-logo{width:auto;height:14vh;margin:0 15px 0 0;}
+.header-home-logo img{width:auto;height:100%;}
+.header-home-title h1{font-size:160%;margin:0 0;padding:0;line-height:1.1;font-weight:bold;text-transform:uppercase;}
+.header-home-title p{font-size:100%;margin:10px 0 0;padding:0;line-height:1.1;font-weight:normal;color:#000;}
+.form-register{position:relative;overflow:hidden;padding:0 0 0 10px;}
+.form-register-inner{position:relative;overflow:hidden;border-radius:7px;background:rgba(255,255,255,0.65);height:60vh;border:#fff 3px solid;padding:0 15px;-webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.4);
+box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.4);}
+.heading-register{position:absolute;top:2vh;left:0;z-index:2;right:0;height:6vh;}
+.reg .heading-register{right:180px;}
+.heading-register:after{content:"";position:absolute;bottom:-9px;left:0;border-left:transparent 10px solid;border-top:#000 10px solid;}
+.heading-register h2{font-size:100%;margin:0 15px 0 0;padding:0 20px;line-height:6vh;font-weight:bold;text-transform:uppercase;color:#fff;border-radius:5px 5px 5px 0;background: rgb(3,139,0);
+background: -moz-linear-gradient(90deg, rgba(3,139,0,1) 0%, rgba(150,219,138,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(3,139,0,1) 0%, rgba(150,219,138,1) 100%);
+background: linear-gradient(90deg, rgba(3,139,0,1) 0%, rgba(150,219,138,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#038b00",endColorstr="#96db8a",GradientType=1);}
+.box-tamu{margin:10vh 0 0;}
+.margin-min5{margin:0 -5px;}
+.pd-lr-5{padding:0 5px;}
+.column-2{width:50%;float:left;}
+.column-4{width:25%;float:left;margin:0 0 10px;}
+.column-100{width:100%;float:left;}
+.box-image{width:25%;float:left;height:52vh;}
+.box-form{width:75%;float:left;}
+.column-isian{width:calc(100% - 280px);float:left;}
+.column-isian-margin{margin:0 15px 0 0;}
+.form-group {
+  margin-bottom: 2vh;
+}
+.isian-left{width:30%;float:left;}
+.isian-right{width:70%;float:left;}
+.form-control, select.form-control:not([size]):not([multiple]) {
+  display: block;
+  width: 100%;
+  height: 6vh;
+  padding:0 10px;
+  font-size: 14px;
+  line-height:1.1;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  -webkit-box-shadow:none;
+          box-shadow:none;
+  -webkit-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+.form-control:focus {
+  border-color: #919191;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.form-control::-moz-placeholder {
+  color: #313131;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #313131;
+}
+.form-control::-webkit-input-placeholder {
+  color: #313131;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #fff;
+  opacity: 1;
+}
+textarea.form-control {
+  height: auto;
+}
+.isian-left label{position:relative;line-height:6vh;background:#a3b693;color:#fff;padding:0 10px;display:block;border-radius:5px;margin:0 15px 0 0;}
+.isian-left label:after{content:"";border-left:#a3b693 10px solid;border-top:transparent 8px solid;border-bottom:transparent 8px solid;position:absolute;right:-9px;top:50%;-webkit-transform: translate3d(0, -50%, 0);-moz-transform: translate3d(0, -50%, 0);-ms-transform: translate3d(0, -50%, 0);-o-transform: translate3d(0, -50%, 0);transform: translate3d(0, -50%, 0);}
+.box-camera{position:relative;}
+.ambil{position:absolute;left:0;right:0;top:-8vh;z-index:2;margin-top:-2px;}
+.ambil:after{content:"";position:absolute;right:30px;bottom:-9px;border-right:transparent 20px solid;border-top:#26a66e 10px solid;}
+.ambil p{font-size:100%;margin:0 0;padding:0;width:165px;line-height:1.1;font-weight:normal;height:6vh;background:#26a66e;border-radius:5px;color:#fff;}
+.batal{background-color:#008494;color:#fff;}
+.judul{padding-top:15px;}
+.judul h1{font-size:120%;margin:0 auto 10px;padding:0;line-height:1.1;font-weight:bold;text-transform:uppercase;color:#009604;}
+.judul p{font-size:100%;margin:0;padding:0;line-height:1.1;font-weight:normal;}
+.judul h2{font-size:100%;margin:10px 0 10px;padding:0;line-height:1.1;font-weight:bold;}
+.judul h3{font-size:100%;margin:0;padding:0;line-height:1.1;font-weight:normal;}
+.left-register-image{position:absolute;left:10px;right:10px;bottom:10px;text-align:center;}
+.left-register-image img{display:block;width:80%;height:auto;margin:0 auto;}
+.link-top{height:5vh;padding:0 10px;border-radius:5px;margin:0 0 0 5px;line-height:1.1;color:#fff;opacity:0.7;float:left;}
+.link-top:hover{opacity:1;}
+.hijau1{background:#3fc838;}
+.hijau2{background:#00a590;}
+.hijau3{background:#89af6a;}
+.kepuasan{position:absolute;left:15px;right:15px;bottom:0;top:14vh;}
+.kepuasan-judul{width:100%;float:left;text-align:center;margin:8vh 0 0;height:6vh;}
+.kepuasan-judul h1{font-size:100%;margin:0 0;padding:0;line-height:1.1;font-weight:bold;}
+.kepuasan-inner{position:relative;overflow:hidden;text-align:center;}
+.withscroll {width:100%;float:left;overflow-y: scroll;scrollbar-color:rgba(0,0,0,0.1) transparent;scrollbar-width: thin;height:100%;}
+.withscroll::-webkit-scrollbar {width: 5px;}
+.withscroll::-webkit-scrollbar-track {background:transparent;}
+.withscroll::-webkit-scrollbar-thumb {background:rgba(0,0,0,0.1);}
+.tanggal{position:relative;overflow:hidden;text-align:right;margin:20px 0 10px;}
+.tanggal p{font-size:100%;margin:0;padding:0;line-height:1.1;font-weight:normal;display:inline-block;}
+.box-kepuasan{width:25%;display:inline-block;margin:0 5px;}
+.box-kepuasan-inner{position:relative;overflow:hidden;text-align:center;}
+.box-kepuasan-title{position:relative;overflow:hidden;height:22vh;border:#bdbdbd 1px solid;margin:-12vh 0 0;z-index:1;background:rgba(255,255,255,0.5);}
+.box-kepuasan-nama{margin:12vh auto 0;padding:0;line-height:1.1;font-weight:bold;height:10vh;}
+.box-kepuasan-image{width: 70%;display: block;position: relative;overflow:hidden;background-size:cover;background-repeat:no-repeat;background-position:center;border-radius:5px;margin:0 auto;z-index:2;}
+.box-kepuasan-image{height:18vh;}
+.box-kepuasan-image img{display:block;width:100%;height:100%;position: absolute;top: 50%;left: 50%;margin:0 auto;object-fit: cover;-webkit-transform: translate3d(-50%, -50%, 0);-moz-transform: translate3d(-50%, -50%, 0);-ms-transform: translate3d(-50%, -50%, 0);-o-transform: translate3d(-50%, -50%, 0);transform: translate3d(-50%, -50%, 0);}
+.pertanyaan{width:100%;float:left;margin:15vh 0 0;}
+.pertanyaan h1{font-size:140%;margin:0 0 15px;padding:0;line-height:1.1;font-weight:bold;}
+.box-jawaban{position:relative;overflow:hidden;padding:5px;border:#bdbdbd 1px solid;background:rgba(255,255,255,0.5);}
+.box-jawaban p{font-size:100%;margin:0;padding:0;line-height:1.1;font-weight:bold;color:#000;}
+.jawaban-icon{float:left;margin:0 7px 0 0;}
+.jawaban-icon img{width:12vh;height:12vh;}

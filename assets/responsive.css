@@ -1,0 +1,62 @@
+
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+.container-custom{margin-left:20px;margin-right:20px;}
+}
+
+@media (max-width: 992px) {	
+.color-body{position:relative;overflow:hidden;min-height:100vh;padding-top:29vh;overflow-y:auto;}
+.container-custom{margin-left:20px;margin-right:20px;}
+.header-home{position:fixed;margin:0 !important;width:100%;padding:0 0;top:0;left:0;height:26vh;background:#fff;z-index:10;}
+.header-home.container-custom.flexleft{display:block;}
+.header-home-left{float:none;width:100%;position:absolute;top:0;left:0;right:0;display: flex;justify-content: center;align-items: center;}
+.header-home-logo{height:8vh;margin:2vh 10px 2vh 20px;}
+.header-home-right{float:left;width:calc(100% - 40px);position:absolute;top:12vh;left:20px;right:20px;text-align:center !important;}
+.header-home-title h1{font-size:120%;margin:0 0;}
+.header-home-title p{display:none;}
+.tanggal{position:relative;overflow:hidden;text-align:center;margin:0;}
+.header-home-right .flexright{display: flex;justify-content: center;align-items: center;}
+.link-top{height:7vh;padding:0 7px;border-radius:5px;margin:0 2px;opacity:1;}
+.left-register{width:100%;margin:0 0 10px;}
+.left-register-inner{position:relative;overflow:hidden;border-radius:7px;height:auto;border:#fff 2px solid;}
+.left-register-margin{margin-right:0;}
+.left-register-image{position:relative;overflow:hidden;left:0;right:0;bottom:10px;text-align:center;}
+.left-register-image img{width:50%;margin:10px auto 10px;}
+.judul{padding-top:10px;}
+.judul h1{font-size:120%;margin:0 10px 10px;}
+.judul p{font-size:100%;margin:0 10px;}
+.judul h2{font-size:100%;margin:10px 10px 10px;}
+.judul h3{font-size:100%;margin:0 10px;}
+.right-register{width:100%;margin:0 0 30px;}
+.form-register{padding:0 0 0 10px;margin:0 0 0 -10px;}
+.form-register-inner{height:auto;border:#fff 2px solid;padding:0 10px;}
+.box-camera{position:relative;width:100%;float:left;text-align:center;margin:0 0 20px;}
+.reg .heading-register{right:0;}
+.column-isian{width:100%;float:left;margin:0 0 60px;}
+.column-isian-margin{margin:0 0 0 0;}
+.ambil.flexright{display: flex;justify-content: center;align-items: center;}
+.ambil{top:-34px;z-index:2;margin-top:0;}
+.ambil p{padding:0 15px;width:auto;height:34px;}
+#camera{margin:0 auto;}
+.ambil:after{right:50%;bottom:-9px;border-right:transparent 10px solid;border-top:#26a66e 10px solid;border-left:transparent 10px solid;margin-right:-10px;}
+.kepuasan{position:relative;left:0;right:0;bottom:auto;top:0;}
+.pertanyaan{margin:70px 0 0;}
+.box-kepuasan{width:75%;margin:0 5px 10px;}
+.pertanyaan h1{font-size:110%;margin:0 0 15px;}
+.column-4{width:50%;float:left;margin:0 0 10px;}
+.jawaban-icon img{width:50px;height:50px;}
+.isian-left{width:35%;float:left;}
+.isian-right{width:65%;float:left;}
+.column-2{width:100%;}
+.form-control, select.form-control:not([size]):not([multiple]) {
+  height: 34px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.isian-left label{line-height:34px;padding:0 5px;}
+}
